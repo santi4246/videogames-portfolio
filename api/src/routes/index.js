@@ -1,6 +1,6 @@
 const { Router } = require('express');
 // Importar todos los routers;
-const videogamesMiddleware = require();
+const videogamesMiddleware = require('./videogames');
 
 const router = Router();
 
