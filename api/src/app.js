@@ -23,7 +23,7 @@ server.use((req, res, next) => {
 });
 
 server.use('/api', routes);
-server.get('/', () => {
+server.get('/', (req, res) => {
   res.status(200).json({message: `App's videogames successfully online`});
 });
 
